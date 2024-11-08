@@ -28,7 +28,7 @@ print(answer)
 
 print("Give me" +str(2)) #print the string with the number 2 at the end" If an integer. Encapsulate the number within int(),str(),float() etc...
 
-print("Give" * 5 ) #prints the string 3 times.(only two numerical values or one string and one integer value as shown.
+print("Give" * 5 ) #printss the string 3 times.(only two numerical values or one string and one integer value as shown.
 
 print(int(5.5))
 
