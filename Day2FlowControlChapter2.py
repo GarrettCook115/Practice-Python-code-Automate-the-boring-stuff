@@ -11,9 +11,9 @@ while n != "Password":
     print("acccess Denied")
     n = input("input password")
 
-    if n == "Password":
+if n == "Password":
         print("Correct")
-    else: 
+else: 
       print("Wrong")
         
 if nt == 1:
@@ -29,13 +29,13 @@ age = int(input("Age:"))
 if name =="Jim":
     print("Hello")
     
-elif age <100:
+if age <100:
       print("I don't know you.")
       
 elif age > 100:
      print("Nomb")
     
-elif age > 3:
+elif age > 3 and name == "Tim":
     print("Yes")
 
 
