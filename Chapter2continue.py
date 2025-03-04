@@ -1,13 +1,15 @@
-name =input("What is your username?")
-while name != "jim":
-    print(name)
-    input("What is your username?")
-    if name == "jim":
-        print(name)
-passw = input("What is your password?")
-while passw !="pass":
-    print(passw)
-    input("Enter your password:")
-    if passw == "pass":
+while True:
+    name = input("Who are you?")
+    if name !="joe":
+        continue #continue utilized to continuously iterate the while true statement aslong as name != joe. Will continue and break to the next section after appropriate input. "joe as name"
+
+    print(" Hello" + name + "Enter your password")
+    password = input()
+    if password != "pass":
+        print("Wrong pass")
+        #if the wrong password is inserted then the entire while loop will start over from the first question asking for the name. 
+    if password == "pass":
         break
-print("Login succesful.")
+print("Logon accepted")
+    
+#on page 113 
