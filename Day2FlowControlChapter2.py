@@ -16,7 +16,7 @@ if n == "Password":
 else: 
       print("Wrong")
         
-if nt == 1:
+if nt == 1:     
       print("1")
 else:
       print("You chose number"+str(nt))
